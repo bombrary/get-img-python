@@ -1,0 +1,7 @@
+.received-images {
+  columns: 4;
+}
+
+.received-images img {
+  width: 100%;
+}

@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Image Viewer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <div class="get-img-form">
+      <form method="POST">
+        <div>
+          <label for="url">URL</label>
+          <input name="url" required>
+        </div>
+        <div>
+          <label for="selector">Selector</label>
+          <input name="selector">
+        </div>
+        <div>
+          <input type="submit" value="submit">
+        </div>
+      </form>
+    </div>
+    <div class="received-images">
+      {% for url in urls %}
+        <img src="{{ url }}">
+      {% endfor %}
+    </div>
+  </body>
+</html>
