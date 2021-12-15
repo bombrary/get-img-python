@@ -1,0 +1,4 @@
+requests == 2.26.0
+beautifulSoup4 == 4.10.0
+tqdm == 4.62.3
+w3lib == 1.22.0

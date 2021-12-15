@@ -2,6 +2,12 @@
 
 Get images on static pages.
 
+## Setup
+
+```bash
+pip install -r requirements.txt
+```
+
 ## CLI
 
 ```bash
